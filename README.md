@@ -14,15 +14,25 @@
 ```
 - (void)viewDidLoad {
 
+  
+  //三行代码：
+  LGSettingSection *section = [LGSettingSection initWithHeaderTitle:[NSString] footerTitle:[NSString]];
+  [section addItemWithTitle:[NSString]];
+  [self.sections addObject:section];
+  
+  
+  //或以下代码：
   //Set1:添加第一组
-  LGSettingSection *section = [LGSettingSection initWithHeaderTitle:@"第一组" footerTitle:nil];
-  
+  LGSettingSection *section = [LGSettingSection initWithHeaderTitle:[NSString] footerTitle:[NSString]];
   //Set2:添加行
-  LGSettingItem *item = [LGSettingItem initWithtitle:@""];
+  LGSettingItem *item = [LGSettingItem initWithtitle:[NSString]];
+  item.image = [UIImage];
+  item.type = [UITableViewCellAccessoryType];
   [section addItem:item];
-  
   //Set3:保存到groups数组
   [self.sections addObject:section];
+  
+  
   }
   
   
