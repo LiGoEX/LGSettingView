@@ -9,18 +9,31 @@
 ## 如何使用LGSettingView
   * 1.将LGSettingView文件夹中的所有文件拽入项目中
   * 2.将导入的LGSettingViewController设为设置界面的VC  
+  * 3.在ViewDidLoad方法中添加组与行  
+
+```
+- (void)viewDidLoad {
+
+  //Set1:添加第一组
+  LGSettingSection *section = [LGSettingSection initWithHeaderTitle:@"第一组" footerTitle:nil];
   
-  ` - (void)viewDidLoad {  <br>
-  //Set1:添加第一组 \<br>
-  LGSettingSection *section1 = [LGSettingSection initWithHeaderTitle:@"第一组" footerTitle:nil];<br>  
-  //Set2:添加行<br>
-    LGSettingItem *item1 = [LGSettingItem initWithtitle:@"Sina:@LiGoEX"];<br>
-    item1.image = [UIImage imageNamed:@"moteki"];<br>
-    item1.height = 80;<br>
-    [section1 addItem:item1];<br>
-    LGSettingItem *item2 = [LGSettingItem initWithtitle: @"Live with passion."];<br>
-    item2.type = UITableViewCellAccessoryCheckmark;<br>
-    [section1 addItem:item2];<br>
-    //Set3:保存到groups数组<br>
-    [self.sections addObject:section1];<br>
-  }`<br>
+  //Set2:添加行
+  LGSettingItem *item = [LGSettingItem initWithtitle:@""];
+  item.image = [UIImage imageNamed:@""];
+  item.height = 80;
+  [section addItem:item];
+  
+  //Set3:保存到groups数组
+  [self.sections addObject:section];
+  }
+  
+  
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  if (indexPath.section == 0 && indexPath.row == 1) {
+  //添加点击事件
+  }
+  
+```
+  
+  
+##LGSettingSection.h
