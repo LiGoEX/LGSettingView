@@ -29,7 +29,7 @@
   item.image = [UIImage];
   item.type = [UITableViewCellAccessoryType];
   [section addItem:item];
-  //Set3:保存到groups数组
+  //Set3:保存到sections数组
   [self.sections addObject:section];
   
   
