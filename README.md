@@ -9,7 +9,7 @@
 ## 如何使用LGSettingView
   * 1.将LGSettingView文件夹中的所有文件拽入项目中
   * 2.将导入的LGSettingViewController设为设置界面的VC  
-  * 3.在ViewDidLoad方法中添加组与行  
+  * 3.在ViewDidLoad方法中添加组与行
 
 ```
 - (void)viewDidLoad {
@@ -19,8 +19,6 @@
   
   //Set2:添加行
   LGSettingItem *item = [LGSettingItem initWithtitle:@""];
-  item.image = [UIImage imageNamed:@""];
-  item.height = 80;
   [section addItem:item];
   
   //Set3:保存到groups数组
@@ -37,3 +35,49 @@
   
   
 ##LGSettingSection.h
+```
+@interface LGSettingSection : NSObject
+
+/** 头部标题 */
+@property (strong, nonatomic) NSString * headerTitle;
+/** 尾部标题 */
+@property (strong, nonatomic) NSString * footerTitle;
+/** 行数 */
+@property (strong, nonatomic) NSMutableArray * items;
+/** 标题 */
+@property (strong, nonatomic) NSString * title;
+
+//类方法 设置headerTitle footerTitle
++ (instancetype)initWithHeaderTitle:(NSString *)headerTitle footerTitle:(NSString *)footerTitle;
+
+-(void)addItem:(LGSettingItem*)item;
+
+-(void)addItemWithTitle:(NSString*)title;
+//添加带有左图标的行
+-(void)addItemWithTitle:(NSString*)title Image:(UIImage*)image;
+@end
+```
+##LGSettingItem.h
+```
+@interface LGSettingItem : NSObject
+
+/** 标题 */
+@property (strong, nonatomic) NSString * title;
+/** 左图标 */
+@property (strong, nonatomic)  UIImage* image;
+/** 行高度 */
+@property (nonatomic) CGFloat height;
+/** 右图标样式 */
+@property (nonatomic) UITableViewCellAccessoryType type;
+
+/** 设置标题值 类方法 */
++ (instancetype)initWithtitle:(NSString *)title;
+
+@end
+
+```
+##参考
+
+  * 文件夹下的LGSettingViewDemo工程
+    
+![image](https://github.com/LiGoEX/LGSettingView/blob/master/screenshots/screenshots.png)
