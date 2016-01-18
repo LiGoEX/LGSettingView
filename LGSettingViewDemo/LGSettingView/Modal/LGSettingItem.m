@@ -15,7 +15,7 @@
     
     LGSettingItem *item = [[LGSettingItem alloc]init];
     item.title = title;
-    item.height = 40;
+    item.height = 44;
     item.type = UITableViewCellAccessoryDisclosureIndicator;
     return item;
 }
