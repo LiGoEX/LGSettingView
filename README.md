@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # LGSettingView
   * 仅需三句代码即可快速集成设置界面，免去每次开发新应用都要重新布置设置界面的烦恼。
   * Build the Setting View on iOS APP by 3 lines of code.
