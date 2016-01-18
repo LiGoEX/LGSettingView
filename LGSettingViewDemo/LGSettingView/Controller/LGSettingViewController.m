@@ -40,7 +40,7 @@
     //添加行
     LGSettingItem *item1 = [LGSettingItem initWithtitle:@"Sina:@LiGoEX"];
     item1.image = [UIImage imageNamed:@"me"];
-    item1.height = 60;
+    item1.height = 64;
     [section1 addItem:item1];
     LGSettingItem *item2 = [LGSettingItem initWithtitle:@"Live with passion."];
     item2.type = UITableViewCellAccessoryNone;
