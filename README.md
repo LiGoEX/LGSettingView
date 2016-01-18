@@ -96,6 +96,3 @@
 ##鸣谢
   * iOS_CYX 
   * Kenshin Cui's Blog
-=======
-# LGSettingView
->>>>>>> origin/master
