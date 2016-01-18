@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  LGSettingViewDemo
 //
-//  Created by LiGo on 11/16/15.
-//  Copyright © 2015 LiGo. All rights reserved.
+//  Created by LiGo on 1/18/16.
+//  Copyright © 2016 LiGo. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -18,16 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     // 创建UIWindow
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    
     LGSettingViewController *new = [[LGSettingViewController alloc]init];
     // 设置控制器为window的根控制器
-     self.window.rootViewController = new;
-   // 显示window
-   [self.window makeKeyAndVisible];
-    
+    self.window.rootViewController = new;
+    // 显示window
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

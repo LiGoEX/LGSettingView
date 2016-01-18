@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15536ED21C4D1D3300047B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536ED11C4D1D3300047B43 /* main.m */; };
+		15536ED51C4D1D3300047B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536ED41C4D1D3300047B43 /* AppDelegate.m */; };
+		15536EDB1C4D1D3300047B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15536ED91C4D1D3300047B43 /* Main.storyboard */; };
+		15536EDD1C4D1D3300047B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15536EDC1C4D1D3300047B43 /* Assets.xcassets */; };
+		15536EE01C4D1D3300047B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15536EDE1C4D1D3300047B43 /* LaunchScreen.storyboard */; };
+		15536EEB1C4D1D3300047B43 /* LGSettingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536EEA1C4D1D3300047B43 /* LGSettingViewDemoTests.m */; };
+		15536EF61C4D1D3300047B43 /* LGSettingViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536EF51C4D1D3300047B43 /* LGSettingViewDemoUITests.m */; };
+		15536F0C1C4D1D5600047B43 /* LGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536F061C4D1D5600047B43 /* LGSettingViewController.m */; };
+		15536F0D1C4D1D5600047B43 /* LGSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536F091C4D1D5600047B43 /* LGSettingItem.m */; };
+		15536F0E1C4D1D5600047B43 /* LGSettingSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 15536F0B1C4D1D5600047B43 /* LGSettingSection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15536EE71C4D1D3300047B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15536EC51C4D1D3300047B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15536ECC1C4D1D3300047B43;
+			remoteInfo = LGSettingViewDemo;
+		};
+		15536EF21C4D1D3300047B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15536EC51C4D1D3300047B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15536ECC1C4D1D3300047B43;
+			remoteInfo = LGSettingViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15536ECD1C4D1D3300047B43 /* LGSettingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGSettingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536ED11C4D1D3300047B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15536ED31C4D1D3300047B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15536ED41C4D1D3300047B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15536EDA1C4D1D3300047B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15536EDC1C4D1D3300047B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15536EDF1C4D1D3300047B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15536EE11C4D1D3300047B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15536EE61C4D1D3300047B43 /* LGSettingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSettingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536EEA1C4D1D3300047B43 /* LGSettingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSettingViewDemoTests.m; sourceTree = "<group>"; };
+		15536EEC1C4D1D3300047B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15536EF11C4D1D3300047B43 /* LGSettingViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGSettingViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15536EF51C4D1D3300047B43 /* LGSettingViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGSettingViewDemoUITests.m; sourceTree = "<group>"; };
+		15536EF71C4D1D3300047B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15536F051C4D1D5600047B43 /* LGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSettingViewController.h; sourceTree = "<group>"; };
+		15536F061C4D1D5600047B43 /* LGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSettingViewController.m; sourceTree = "<group>"; };
+		15536F081C4D1D5600047B43 /* LGSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSettingItem.h; sourceTree = "<group>"; };
+		15536F091C4D1D5600047B43 /* LGSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSettingItem.m; sourceTree = "<group>"; };
+		15536F0A1C4D1D5600047B43 /* LGSettingSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSettingSection.h; sourceTree = "<group>"; };
+		15536F0B1C4D1D5600047B43 /* LGSettingSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSettingSection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15536ECA1C4D1D3300047B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EE31C4D1D3300047B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EEE1C4D1D3300047B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15536EC41C4D1D3300047B43 = {
+			isa = PBXGroup;
+			children = (
+				15536ECF1C4D1D3300047B43 /* LGSettingViewDemo */,
+				15536EE91C4D1D3300047B43 /* LGSettingViewDemoTests */,
+				15536EF41C4D1D3300047B43 /* LGSettingViewDemoUITests */,
+				15536ECE1C4D1D3300047B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15536ECE1C4D1D3300047B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15536ECD1C4D1D3300047B43 /* LGSettingViewDemo.app */,
+				15536EE61C4D1D3300047B43 /* LGSettingViewDemoTests.xctest */,
+				15536EF11C4D1D3300047B43 /* LGSettingViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15536ECF1C4D1D3300047B43 /* LGSettingViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				15536F031C4D1D5600047B43 /* LGSettingView */,
+				15536ED31C4D1D3300047B43 /* AppDelegate.h */,
+				15536ED41C4D1D3300047B43 /* AppDelegate.m */,
+				15536ED91C4D1D3300047B43 /* Main.storyboard */,
+				15536EDC1C4D1D3300047B43 /* Assets.xcassets */,
+				15536EDE1C4D1D3300047B43 /* LaunchScreen.storyboard */,
+				15536EE11C4D1D3300047B43 /* Info.plist */,
+				15536ED01C4D1D3300047B43 /* Supporting Files */,
+			);
+			path = LGSettingViewDemo;
+			sourceTree = "<group>";
+		};
+		15536ED01C4D1D3300047B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15536ED11C4D1D3300047B43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15536EE91C4D1D3300047B43 /* LGSettingViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				15536EEA1C4D1D3300047B43 /* LGSettingViewDemoTests.m */,
+				15536EEC1C4D1D3300047B43 /* Info.plist */,
+			);
+			path = LGSettingViewDemoTests;
+			sourceTree = "<group>";
+		};
+		15536EF41C4D1D3300047B43 /* LGSettingViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15536EF51C4D1D3300047B43 /* LGSettingViewDemoUITests.m */,
+				15536EF71C4D1D3300047B43 /* Info.plist */,
+			);
+			path = LGSettingViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		15536F031C4D1D5600047B43 /* LGSettingView */ = {
+			isa = PBXGroup;
+			children = (
+				15536F041C4D1D5600047B43 /* Controller */,
+				15536F071C4D1D5600047B43 /* Modal */,
+			);
+			path = LGSettingView;
+			sourceTree = "<group>";
+		};
+		15536F041C4D1D5600047B43 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15536F051C4D1D5600047B43 /* LGSettingViewController.h */,
+				15536F061C4D1D5600047B43 /* LGSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15536F071C4D1D5600047B43 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				15536F081C4D1D5600047B43 /* LGSettingItem.h */,
+				15536F091C4D1D5600047B43 /* LGSettingItem.m */,
+				15536F0A1C4D1D5600047B43 /* LGSettingSection.h */,
+				15536F0B1C4D1D5600047B43 /* LGSettingSection.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15536ECC1C4D1D3300047B43 /* LGSettingViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536EFA1C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemo" */;
+			buildPhases = (
+				15536EC91C4D1D3300047B43 /* Sources */,
+				15536ECA1C4D1D3300047B43 /* Frameworks */,
+				15536ECB1C4D1D3300047B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGSettingViewDemo;
+			productName = LGSettingViewDemo;
+			productReference = 15536ECD1C4D1D3300047B43 /* LGSettingViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15536EE51C4D1D3300047B43 /* LGSettingViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536EFD1C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemoTests" */;
+			buildPhases = (
+				15536EE21C4D1D3300047B43 /* Sources */,
+				15536EE31C4D1D3300047B43 /* Frameworks */,
+				15536EE41C4D1D3300047B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15536EE81C4D1D3300047B43 /* PBXTargetDependency */,
+			);
+			name = LGSettingViewDemoTests;
+			productName = LGSettingViewDemoTests;
+			productReference = 15536EE61C4D1D3300047B43 /* LGSettingViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15536EF01C4D1D3300047B43 /* LGSettingViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15536F001C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemoUITests" */;
+			buildPhases = (
+				15536EED1C4D1D3300047B43 /* Sources */,
+				15536EEE1C4D1D3300047B43 /* Frameworks */,
+				15536EEF1C4D1D3300047B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15536EF31C4D1D3300047B43 /* PBXTargetDependency */,
+			);
+			name = LGSettingViewDemoUITests;
+			productName = LGSettingViewDemoUITests;
+			productReference = 15536EF11C4D1D3300047B43 /* LGSettingViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15536EC51C4D1D3300047B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiGo;
+				TargetAttributes = {
+					15536ECC1C4D1D3300047B43 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 85P5N4JNEC;
+					};
+					15536EE51C4D1D3300047B43 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 85P5N4JNEC;
+						TestTargetID = 15536ECC1C4D1D3300047B43;
+					};
+					15536EF01C4D1D3300047B43 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 85P5N4JNEC;
+						TestTargetID = 15536ECC1C4D1D3300047B43;
+					};
+				};
+			};
+			buildConfigurationList = 15536EC81C4D1D3300047B43 /* Build configuration list for PBXProject "LGSettingViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15536EC41C4D1D3300047B43;
+			productRefGroup = 15536ECE1C4D1D3300047B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15536ECC1C4D1D3300047B43 /* LGSettingViewDemo */,
+				15536EE51C4D1D3300047B43 /* LGSettingViewDemoTests */,
+				15536EF01C4D1D3300047B43 /* LGSettingViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15536ECB1C4D1D3300047B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536EE01C4D1D3300047B43 /* LaunchScreen.storyboard in Resources */,
+				15536EDD1C4D1D3300047B43 /* Assets.xcassets in Resources */,
+				15536EDB1C4D1D3300047B43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EE41C4D1D3300047B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EEF1C4D1D3300047B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15536EC91C4D1D3300047B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536F0C1C4D1D5600047B43 /* LGSettingViewController.m in Sources */,
+				15536ED51C4D1D3300047B43 /* AppDelegate.m in Sources */,
+				15536F0D1C4D1D5600047B43 /* LGSettingItem.m in Sources */,
+				15536ED21C4D1D3300047B43 /* main.m in Sources */,
+				15536F0E1C4D1D5600047B43 /* LGSettingSection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EE21C4D1D3300047B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536EEB1C4D1D3300047B43 /* LGSettingViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15536EED1C4D1D3300047B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15536EF61C4D1D3300047B43 /* LGSettingViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15536EE81C4D1D3300047B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15536ECC1C4D1D3300047B43 /* LGSettingViewDemo */;
+			targetProxy = 15536EE71C4D1D3300047B43 /* PBXContainerItemProxy */;
+		};
+		15536EF31C4D1D3300047B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15536ECC1C4D1D3300047B43 /* LGSettingViewDemo */;
+			targetProxy = 15536EF21C4D1D3300047B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15536ED91C4D1D3300047B43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15536EDA1C4D1D3300047B43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15536EDE1C4D1D3300047B43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15536EDF1C4D1D3300047B43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15536EF81C4D1D3300047B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15536EF91C4D1D3300047B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15536EFB1C4D1D3300047B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSettingViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15536EFC1C4D1D3300047B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGSettingViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15536EFE1C4D1D3300047B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGSettingViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSettingViewDemo.app/LGSettingViewDemo";
+			};
+			name = Debug;
+		};
+		15536EFF1C4D1D3300047B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGSettingViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGSettingViewDemo.app/LGSettingViewDemo";
+			};
+			name = Release;
+		};
+		15536F011C4D1D3300047B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGSettingViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGSettingViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		15536F021C4D1D3300047B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGSettingViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ligo.LGSettingViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGSettingViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15536EC81C4D1D3300047B43 /* Build configuration list for PBXProject "LGSettingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536EF81C4D1D3300047B43 /* Debug */,
+				15536EF91C4D1D3300047B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15536EFA1C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536EFB1C4D1D3300047B43 /* Debug */,
+				15536EFC1C4D1D3300047B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15536EFD1C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536EFE1C4D1D3300047B43 /* Debug */,
+				15536EFF1C4D1D3300047B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		15536F001C4D1D3300047B43 /* Build configuration list for PBXNativeTarget "LGSettingViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15536F011C4D1D3300047B43 /* Debug */,
+				15536F021C4D1D3300047B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15536EC51C4D1D3300047B43 /* Project object */;
+}

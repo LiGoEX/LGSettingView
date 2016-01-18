@@ -21,8 +21,12 @@
 @property (strong, nonatomic) NSString * title;
 
 + (instancetype)initWithHeaderTitle:(NSString *)headerTitle footerTitle:(NSString *)footerTitle;
+//添加Item
 -(void)addItem:(LGSettingItem*)item;
+//添加自定义标题的行
 -(void)addItemWithTitle:(NSString*)title;
+//添加带有左图标的行
+-(void)addItemWithTitle:(NSString*)title Image:(UIImage*)image;
 @end
 
 

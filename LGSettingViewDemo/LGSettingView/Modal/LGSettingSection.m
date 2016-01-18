@@ -36,4 +36,13 @@
     [_items addObject:item];
 }
 
+-(void)addItemWithTitle:(NSString*)title Image:(UIImage*)image {
+    if (!_items) {
+        _items = [NSMutableArray array];
+        
+    }
+    LGSettingItem *item = [LGSettingItem initWithtitle:title];
+    item.image = image;
+    [_items addObject:item];
+}
 @end
